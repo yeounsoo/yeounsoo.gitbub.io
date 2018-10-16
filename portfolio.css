@@ -1,0 +1,108 @@
+@charset 'utf-8';
+@import url("https://use.typekit.net/tih2jyr.css");
+*, *::before, *::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a{
+  color: inherit;
+}
+a:link{
+  text-decoration: none;
+}
+/* Desktop Device */
+.container{
+  display: flex;
+  min-width: 100%;
+  min-height: 100vh;
+}
+.rwd{
+  max-width: 100%;
+  height: auto;
+}
+.block{
+  display: block;
+}
+.Halyard-Light{
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.Halyard-Book{
+  font-family: halyard-display, sans-serif;
+  font-weight: 350;
+  font-style: normal;
+}
+.Halyard-Medium{
+  font-family: halyard-display, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.Halyard-Regular{
+  font-family: halyard-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.Halyard-SemiBold{
+  font-family: halyard-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.Halyard-Bold{
+  font-family: halyard-display, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  min-width: 182px;
+  padding-right: 26px;
+  background-color: gray;
+}
+.branding{
+  height: 120px;
+}
+.main-menu li{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30%;
+  text-transform: uppercase;
+  letter-spacing: 3.2px;
+  line-height: 39px;
+}
+.contents{
+  width: 85%;
+  min-width: 880px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding-top: 120px;
+  padding-left: 52px;
+}
+.sns{
+  background-color: yellow;
+  margin-top: auto;
+}
+.card-row{
+  display: flex;
+  margin-bottom: 39px;
+}
+.card{
+  flex-direction: row;
+  width: 30%;
+  max-width: 299px;
+  margin-right: 39px;
+}
+.card-image{
+  /* background-color: skyblue; */
+}
+.card-title{
+  /* background-color: yellow; */
+  margin-top: 10px;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+  font-size: 16px;
+}
